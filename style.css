@@ -17,6 +17,10 @@ img{
 	max-height:300px;
 	padding-top:1.5vw;
 	padding-bottom:1vw;
+
+}
+#img1{
+    margin-left:1vw;
 }
 
 .row:nth-child(even)
@@ -24,6 +28,7 @@ img{
 	background:rgba(52, 73, 94, 0.6);
 	padding-bottom:2vw;
 }
+
 .row:nth-child(odd)
 {
 	background-color:white;
