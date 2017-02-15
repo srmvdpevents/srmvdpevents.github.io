@@ -6,6 +6,7 @@ body{
 	text-align:center;
 	color:white;
 	height:100%;
+	font-size:1.5em;
 	
 }
 h2{
@@ -14,6 +15,8 @@ h2{
 }
 img{
 	max-height:300px;
+	padding-top:1.5vw;
+	padding-bottom:1vw;
 }
 
 .row:nth-child(even)
@@ -53,8 +56,10 @@ img{
 }
 }
 #footer{
+	padding-top:2vw;
 	background:rgb(84, 153, 199);
 	text-align:center;
+	padding-bottom:2vw;
 }
 #events{
 	background:white;
@@ -65,4 +70,10 @@ img{
 	padding-top:4vw;
 	background:rgb(86, 101, 115);
 	color:gold;
+}
+#des{
+	padding-bottom:2vw;
+}
+#register{
+	font-size:2em;
 }
