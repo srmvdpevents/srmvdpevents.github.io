@@ -27,6 +27,7 @@ img{
 {
 	background:rgba(52, 73, 94, 0.6);
 	padding-bottom:2vw;
+    font-size:1em;
 }
 
 .row:nth-child(odd)
@@ -80,5 +81,5 @@ img{
 	padding-bottom:2vw;
 }
 #register{
-	font-size:2em;
+	font-size:1.5em;
 }
