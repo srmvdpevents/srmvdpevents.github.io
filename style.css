@@ -25,7 +25,7 @@ img{
 
 .row:nth-child(even)
 {
-	background:rgba(52, 73, 94, 0.6);
+	background-color:#636363;
 	padding-bottom:2vw;
     font-size:1em;
 }
@@ -82,4 +82,7 @@ img{
 }
 #register{
 	font-size:1.5em;
+}
+.modal-body{
+	color:black;
 }
