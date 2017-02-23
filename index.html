@@ -22,13 +22,14 @@
 
         </script>
 		<script>
-		$(window).ready(function(){
-        $(".preloder").remove();
-});
+			function myFunction() {
+			$(document).ready(function(){
+					$(".preloder").remove();
+			});
+			}
 		</script>
 
 	</head>
-	<body>
 	<div class="preloder">
 	<div class="cssload-container">
 	<div class="cssload-lt"></div>
@@ -37,6 +38,7 @@
 	<div class="cssload-rb"></div>
 </div>
 </div>
+	<body onload="myFunction()">
 		<div class="container-fluid" id="main">
 			<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
